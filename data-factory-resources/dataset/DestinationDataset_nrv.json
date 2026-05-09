@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_nrv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "stgadfbyexample2026",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "sampledata"
+			}
+		}
+	}
+}
