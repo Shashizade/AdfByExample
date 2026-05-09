@@ -1,0 +1,15 @@
+{
+	"name": "adfbyexample2026-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3a4bcc4-99c6-42e3-869a-cc2d7da70b43",
+		"tenantId": "374f8026-7b54-4a3a-b87d-328fa26ec10d"
+	}
+}
