@@ -1,0 +1,21 @@
+{
+	"name": "SourceDataset_nrv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "stgadfbyexample2026",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Azure-Data-Factory-by-Example-Second-Edition-main.zip",
+				"container": "landing"
+			},
+			"compression": {
+				"type": "ZipDeflate"
+			}
+		}
+	}
+}
