@@ -1,5 +1,5 @@
 {
-	"name": "PL_Copy_Employees",
+	"name": "PL_Dynamic_Copy",
 	"properties": {
 		"activities": [
 			{
@@ -105,6 +105,12 @@
 				]
 			}
 		],
+		"parameters": {
+			"FileName": {
+				"type": "string",
+				"defaultValue": "employees.csv"
+			}
+		},
 		"annotations": []
 	}
 }
