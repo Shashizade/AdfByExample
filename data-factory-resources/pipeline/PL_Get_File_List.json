@@ -48,10 +48,27 @@
 						"value": "@activity('GM_GetFiles').output.childItems",
 						"type": "Expression"
 					},
-					"isSequential": true
+					"isSequential": true,
+					"activities": [
+						{
+							"name": "CurrentFile",
+							"type": "SetVariable",
+							"dependsOn": [],
+							"policy": {
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": []
+						}
+					]
 				}
 			}
 		],
+		"variables": {
+			"CurrentFile": {
+				"type": "String"
+			}
+		},
 		"folder": {
 			"name": "GPTDay4"
 		},
