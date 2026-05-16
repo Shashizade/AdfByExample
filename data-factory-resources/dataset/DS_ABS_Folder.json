@@ -5,6 +5,11 @@
 			"referenceName": "LS_ABS_BlobStgbyExample",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"FileName": {
+				"type": "string"
+			}
+		},
 		"folder": {
 			"name": "GPTDay4"
 		},
